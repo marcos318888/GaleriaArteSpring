@@ -39,7 +39,6 @@ public class ArtWorkController {
 		        URI s = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(obraCreada.getId()).toUri(); 
 		        return ResponseEntity.created(s).build();
 
-
 		    }
 		
 
